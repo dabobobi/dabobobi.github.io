@@ -5,15 +5,20 @@
   
 
   
-  <title>我的博客</title>
+  <title>使用 Hexo 构建个人博客站点 | 我的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="我的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="安装构建工具全局安装 hexo-cli 1$ cnpm install hexo-cli -g 检验版本信息version 1$ hexo version 显示版本信息。 初始化站点init 1$ hexo init [folder] 初始化站点。如果没有提供 folder，Hexo会在当前目录下创建站点。 新建文章页面new 1$ hexo new [layout] &amp;lt;title&amp;gt;">
+<meta name="keywords" content="blog,git,web">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用 Hexo 构建个人博客站点">
+<meta property="og:url" content="http://yoursite.com/2018/05/30/hexo-getting-start/index.html">
 <meta property="og:site_name" content="我的博客">
+<meta property="og:description" content="安装构建工具全局安装 hexo-cli 1$ cnpm install hexo-cli -g 检验版本信息version 1$ hexo version 显示版本信息。 初始化站点init 1$ hexo init [folder] 初始化站点。如果没有提供 folder，Hexo会在当前目录下创建站点。 新建文章页面new 1$ hexo new [layout] &amp;lt;title&amp;gt;">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-05-30T12:04:39.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="我的博客">
+<meta name="twitter:title" content="使用 Hexo 构建个人博客站点">
+<meta name="twitter:description" content="安装构建工具全局安装 hexo-cli 1$ cnpm install hexo-cli -g 检验版本信息version 1$ hexo version 显示版本信息。 初始化站点init 1$ hexo init [folder] 初始化站点。如果没有提供 folder，Hexo会在当前目录下创建站点。 新建文章页面new 1$ hexo new [layout] &amp;lt;title&amp;gt;">
   
     <link rel="alternate" href="/atom.xml" title="我的博客" type="application/atom+xml">
   
@@ -64,130 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-markdown_syntax" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/05/31/markdown_syntax/" class="article-date">
-  <time datetime="2018-05-31T02:11:00.953Z" itemprop="datePublished">2018-05-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="标题-（Headers）"><a href="#标题-（Headers）" class="headerlink" title="标题 （Headers）"></a>标题 （Headers）</h1><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># This is an &lt;h1&gt; tag</span></span><br><span class="line"><span class="section">## This is an &lt;h2&gt; tag</span></span><br><span class="line"><span class="section">###### This is an &lt;h6&gt; tag</span></span><br></pre></td></tr></table></figure>
-<h1 id="强调-（Emphasis）"><a href="#强调-（Emphasis）" class="headerlink" title="强调 （Emphasis）"></a>强调 （Emphasis）</h1><p><em>This text will be italic</em></p>
-<p><em>This will also be italic</em></p>
-<p><strong>This text will be bold</strong></p>
-<p><strong>This will also be bold</strong></p>
-<h1 id="引用-（Block-quotes）"><a href="#引用-（Block-quotes）" class="headerlink" title="引用 （Block quotes）"></a>引用 （Block quotes）</h1><p>As Grace Hopper said:</p>
-<blockquote>
-<p>I’ve always been more interested<br>in the future than in the past.</p>
-</blockquote>
-<h1 id="列表-（Lists）"><a href="#列表-（Lists）" class="headerlink" title="列表 （Lists）"></a>列表 （Lists）</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><ul>
-<li>Item 1</li>
-<li>Item 2<ul>
-<li>Item 2a</li>
-<li>Item 2b</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>Item 1</li>
-<li>Item 2<ul>
-<li>item 2a</li>
-<li>item 2b</li>
-</ul>
-</li>
-</ul>
-<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ol>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3<ul>
-<li>Item 3a</li>
-<li>Item 3b</li>
-</ul>
-</li>
-</ol>
-<h1 id="链接（Links）"><a href="#链接（Links）" class="headerlink" title="链接（Links）"></a>链接（Links）</h1><p><a href="https://github.com" target="_blank" rel="noopener">https://github.com</a> - Github</p>
-<p><a href="https://github.com" target="_blank" rel="noopener">Github</a></p>
-<h1 id="图片-（Images）"><a href="#图片-（Images）" class="headerlink" title="图片 （Images）"></a>图片 （Images）</h1><p><a href="https://octodex.github.com/images/yaktocat.png" target="_blank" rel="noopener">Image of Yaktocal</a></p>
-<p><img src="https://octodex.github.com/images/yaktocat.png" alt="Image of Yaktocal"></p>
-<h1 id="代码块（Code-block）"><a href="#代码块（Code-block）" class="headerlink" title="代码块（Code block）"></a>代码块（Code block）</h1><h2 id="无颜色渲染的代码"><a href="#无颜色渲染的代码" class="headerlink" title="无颜色渲染的代码"></a>无颜色渲染的代码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">function sum (x, y) &#123;</span><br><span class="line">    return x + y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="直接写，最后可以加一个Tab键，等于上面的渲染。"><a href="#直接写，最后可以加一个Tab键，等于上面的渲染。" class="headerlink" title="直接写，最后可以加一个Tab键，等于上面的渲染。"></a>直接写，最后可以加一个Tab键，等于上面的渲染。</h2><pre><code>function sum (x, y) {
-    return x + y;
-}
-</code></pre><h2 id="高亮显示代码（渲染）"><a href="#高亮显示代码（渲染）" class="headerlink" title="高亮显示代码（渲染）"></a>高亮显示代码（渲染）</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sum</span> (<span class="params">x, y</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> x + y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="行内代码-（Inline-code）"><a href="#行内代码-（Inline-code）" class="headerlink" title="行内代码 （Inline code）"></a>行内代码 （Inline code）</h1><p>列出指定类型的信息，可用的类型有：<code>page</code>，<code>post</code>，<code>route</code>，<code>tag</code>，<code>category</code></p>
-<h1 id="表格-（Tables）"><a href="#表格-（Tables）" class="headerlink" title="表格 （Tables）"></a>表格 （Tables）</h1><table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>cell 1</td>
-<td>cell 2</td>
-</tr>
-<tr>
-<td>Column 1</td>
-<td>Column 2</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th style="text-align:right">First Header</th>
-<th style="text-align:center">Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right">cell 1</td>
-<td style="text-align:center">cell 2</td>
-</tr>
-<tr>
-<td style="text-align:right">Column 1</td>
-<td style="text-align:center">Column 2</td>
-</tr>
-</tbody>
-</table>
-<h1 id="任务列表-（Task-lists）"><a href="#任务列表-（Task-lists）" class="headerlink" title="任务列表 （Task lists）"></a>任务列表 （Task lists）</h1><ul>
-<li style="list-style: none"><input type="checkbox"> 交电费</li>
-<li style="list-style: none"><input type="checkbox" checked> 还信用卡</li>
-<li style="list-style: none"><input type="checkbox"> 帮妈妈买菜</li>
-<li style="list-style: none"><input type="checkbox" checked> 下班打卡</li>
-</ul>
-<h1 id="表情-（Emoji）"><a href="#表情-（Emoji）" class="headerlink" title="表情 （Emoji）"></a>表情 （Emoji）</h1><p><a href="http://www.emoji-cheat-sheet.com/" target="_blank" rel="noopener">Emoji Cheat Sheet</a></p>
-<ul>
-<li><p>点赞 :+1:</p>
-</li>
-<li><p>微笑 :smile:</p>
-</li>
-</ul>
-<h1 id="转义（Escape）"><a href="#转义（Escape）" class="headerlink" title="转义（Escape）"></a>转义（Escape）</h1><p>*literal asterishs*</p>
-<p>反斜杠可以转义的字符如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">` backtick</span><br><span class="line">* asterisk</span><br><span class="line">_ underscore</span><br><span class="line">&#123;&#125; curly braces</span><br><span class="line">[] square brackets</span><br><span class="line">() parentheses</span><br><span class="line"># hash mark</span><br><span class="line">+ plus sign</span><br><span class="line">- minus sign (hyphen)</span><br><span class="line">. dot</span><br><span class="line">! exclamation mark</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/31/markdown_syntax/" data-id="cjhtyial20004w8mc1xvirrfm" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hexo-getting-start" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hexo-getting-start" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/05/30/hexo-getting-start/" class="article-date">
   <time datetime="2018-05-30T06:55:48.000Z" itemprop="datePublished">2018-05-30</time>
@@ -204,8 +86,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/30/hexo-getting-start/">使用 Hexo 构建个人博客站点</a>
+    <h1 class="article-title" itemprop="name">
+      使用 Hexo 构建个人博客站点
     </h1>
   
 
@@ -320,136 +202,28 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-my-second-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/05/30/my-second-post/" class="article-date">
-  <time datetime="2018-05-30T06:40:44.000Z" itemprop="datePublished">2018-05-30</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/学习/">学习</a>►<a class="article-category-link" href="/categories/学习/前端/">前端</a>►<a class="article-category-link" href="/categories/学习/前端/hexo/">hexo</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+    <a href="/2018/05/31/markdown_syntax/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/30/my-second-post/">my second post</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>我的第二篇文章<br>这是内容<br>巴拉巴拉小魔仙快变身！！！</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/30/my-second-post/" data-id="cjhtyiale0008w8mcmusdn0ll" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/">web</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-my-first-post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/05/30/my-first-post/" class="article-date">
-  <time datetime="2018-05-30T03:23:22.000Z" itemprop="datePublished">2018-05-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          (no title)
         
+      </div>
+    </a>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/30/my-first-post/">my-first-post</a>
-    </h1>
   
+    <a href="/2018/05/30/my-second-post/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">my second post</div>
+    </a>
+  
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>我的第一篇文章<br>二级标题</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/30/my-first-post/" data-id="cjhtyialb0007w8mcmk0p3mdv" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/05/30/hello-world/" class="article-date">
-  <time datetime="2018-05-30T03:05:15.635Z" itemprop="datePublished">2018-05-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/30/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/05/30/hello-world/" data-id="cjhtyiakk0000w8mcsm6c7jyq" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
